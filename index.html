@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/index.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <header></header>
+    <main>
+        <div class="container">
+        <!--Logo-->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <img class="responsive-img" src="images/logo_transparent.png" alt="">
+                </div>
+            </div>
+            <!--Desktop section-->
+            <section class="hide-on-small-only">
+                
+                <div class="row">
+                    <div class="col s12 flex">
+                        <h3> ממיר טפסי</h3>&nbsp;&nbsp;
+                        <img src="images/icons8-microsoft-forms-64.png" alt="">&nbsp;&nbsp;
+                        <h3>לעברית!</h3>
+                    </div>
+                </div>
+             
+            </section>
+        <!--Mobile section-->
+            <section class="hide-on-large-only">
+                <div class="row">
+                    <div class="col s12 flex">
+                        <p class="flow-text"><b>ממיר טפסי Microsoft Forms לעברית</b></p>
+                    </div>
+                </div>
+            </section>
+        <!--Input-->
+            <div class="row">
+                <div class="col s12 flex">
+                    <p class="flow-text">יש להדביק את הקישור לטופס</p>&nbsp;
+                    <a class="flow-text helper modal-trigger" href="#modal1">(איך מוצאים את הקישור)</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align">
+                    <div class="input-field col s12">
+                        <input id="formLink" type="text">
+                    </div>
+                </div>
+            </div>
+     
+        <!--Submit Button-->
+            <div class="row">
+                <div class="col s12 flex">
+                    <a id="formBtn" class="btn-large disabled">לחיצה להמרה</a>
+                </div>
+            </div>
+        <!--Progress-->
+            <div id="progressRow" class="row hide">
+                <div class="col s12 flex">
+                    <div class="progress ">
+                        <div class="indeterminate"></div>>
+                    </div>
+                </div>
+            </div>             
+   <!--Converted Button-->
+            <div id="ConvertBtnRow" class="row hide">
+                <div class="col s12 flex">
+                    <a id="ConvertBtn" class="btn-large blue" href="" target="_blank">הטופס בעברית במרחק לחיצה...</a>
+                </div>
+            </div>
+    <!--end of main-->
+        </div>
+    </main>
+<!--Modal for helper element-->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <img src="images/forms.gif" alt="">
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-red btn">אחלה, הבנתי</a>
+        </div>
+    </div>
+<!--footer-->
+    <footer class="page-footer grey darken-3">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 - כל הזכויות שמורות לאלון כדורי
+                <a class="left" href="https://www.linkedin.com/in/alonkaduri/" target="_blank"><img src="/Images/LinkedIn.png" alt=""></a>
+                <a class="left" href="https://twitter.com/KaduriAlon" target="_blank"><img src="/Images/Twitter.png" alt=""></a>
+                <a class="left" href="mailto:alon@kaduris.com"><img src="/Images/mail.png" alt=""></a>
+                <a class="left" href="tel:0545886970"><img src="/Images/telephone.png" alt=""></a>
+          </div>
+        </div>
+    </footer>
+          
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type=text/javascript src="JS/index.js"></script>
+    </body>
+  </html>
