@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body{
+    margin: 0;
+    padding-top: 30px ;
+    direction: rtl;
+    font-family: "Alef Hebrew";
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../Images/pexels-photo-1022923.jpeg");
+    background-size: cover;
+}
+main {
+    flex: 1 0 auto;
+  }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helper{
+    font-size: 1em;
+}
+.progress{
+    width:15%!important;
+}
