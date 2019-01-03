@@ -23,7 +23,7 @@ formBtn.addEventListener('click', formBtnClicked);
 function formBtnClicked(){
     //url validation for https://forms.office.com
     let formInputValue = document.querySelector("#formLink").value;
-    let n = formInputValue.startsWith("https://forms.office.com");
+    let n = formInputValue.startsWith("https://forms.office.com/Pages/ResponsePage.aspx");
     if(n === false){
         //alert("יש להזין כתובת נכונה של טופס");
         Materialize.toast("יש להזין כתובת נכונה של טופס",4000);
