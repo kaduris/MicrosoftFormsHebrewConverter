@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col s12 flex">
                     <p class="flow-text"> יש להדביק את הקישור לטופס בשורת הטקסט</p>&nbsp;
-                    <a class="flow-text helper modal-trigger" href="#modal1">(איך מוצאים את הקישור?)</a>
+                    <p class="hide-on-small-only"><a class="flow-text helper modal-trigger" href="#modal1">(איך מוצאים את הקישור?)</a></p>
                 </div>
             </div>
             <div class="row">
@@ -97,15 +97,24 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-red btn">אחלה, הבנתי</a>
         </div>
     </div>
+
+    
 <!--footer-->
     <footer class="page-footer grey darken-3">
+    <!--yoututbe container-->
+        <div class="container">
+            <div class="row" id="video-container">  
+            </div>
+        </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2018 - כל הזכויות שמורות לאלון כדורי
+            נבנה ב <i class="material-icons tiny">favorite</i> ע"י אלון כדורי
                 <a class="left" href="https://www.linkedin.com/in/alonkaduri/" target="_blank"><img src="/Images/LinkedIn.png" alt=""></a>
                 <a class="left" href="https://twitter.com/KaduriAlon" target="_blank"><img src="/Images/Twitter.png" alt=""></a>
                 <a class="left" href="mailto:alon@kaduris.com"><img src="/Images/mail.png" alt=""></a>
                 <a class="left" href="tel:0545886970"><img src="/Images/telephone.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCoEA0TOJ43Dhv_64DsVb-xA" class="left" target="_blank"><img src="/Images/YouTube.png" alt=""></a>
+
           </div>
         </div>
     </footer>
@@ -114,6 +123,7 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type=text/javascript src="JS/index.js"></script>
+</script>
     <!--mailchimp popup-->
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"08448531991db25aa12bbe3c5","lid":"4d07219890","uniqueMethods":true}) })</script>
     </body>
